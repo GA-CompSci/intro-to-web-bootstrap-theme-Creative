@@ -1,6 +1,12 @@
 /***** 
 COLOR CHEAT SHEET 
+https://coolors.co/071e22-1d7874-679289-b7990d-562c2c
 
+071e22 - Black
+1d7874 - Dark Teal
+679289 - gray green
+b7990d - gold
+562c2c - rust
 
 *****/
 
@@ -9,9 +15,21 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
-
+    font-family: "Roboto", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+    font-family: "Bungee Tint", sans-serif;
 }
+
+/********************/
+/******* HERO *******/
+/********************/
+header.masthead{
+    background: url(../img/hero.jpg);
+}
+
+
+/********************/
+/****** COLORS ******/
+/********************/
