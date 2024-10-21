@@ -2,11 +2,11 @@
 COLOR CHEAT SHEET 
 https://coolors.co/071e22-1d7874-679289-b7990d-562c2c
 
-071e22 - Black
-1d7874 - Dark Teal
-679289 - gray green
-b7990d - gold
-562c2c - rust
+#071e22 - Black
+#1d7874 - Dark Teal
+#679289 - gray green
+#b7990d - gold
+#562c2c - rust
 
 *****/
 
@@ -18,18 +18,148 @@ body, p {
     font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Bungee Tint", sans-serif;
+h1, h2, h3, h4, h5, h6, 
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Bebas Neue", system-ui;
 }
 
 /********************/
 /******* HERO *******/
 /********************/
 header.masthead{
-    background: url(../img/hero.jpg);
+    background: url(../img/hero2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+.btn-primary{
+    background-color: #562c2c;
+    border: 4px solid #341b1b;
+    color: #dbbd3b;
+}
+
+.btn-primary:hover{
+    background-color: #341b1b;
+    border: 4px solid #071e22;
+    color: white;
+}
+
+/*************************/
+/****** BODY COLORS ******/
+/*************************/
+
+hr.divider{
+    background-color: #562c2c;
+}
+
+a.navbar-brand{
+    color: #b7990d !important;
+    text-shadow: 3px 3px 3px black;
+    font-size: 35px;
+}
+
+header.masthead h1{
+    color: #94d1c4;
+    text-shadow: 4px 4px 4px black;
+    font-size: 95px;
+    font-weight: 400;
+}
+
+header.masthead p{
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px black;
 }
 
 
+section.bg-primary{
+    background-color: #1d7874 !important;
+}
+
+
+.btn-xl{
+    background-color: #562c2c;
+    border: 4px solid black;
+    color: #b7990d;
+}
+
+.btn-xl:hover{
+    background-color: #261414;
+    border: 4px solid black;
+    color: #b7990d;
+}
+
+.text-primary{
+    color: #1d7874 !important;
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+
+	background: rgba(29, 120, 116, 0.9);
+
+}
 /********************/
-/****** COLORS ******/
+/****** NAVBAR ******/
 /********************/
+#mainNav.navbar-shrink {
+	background-color: #562c2c;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+	color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+	color: #b7990d  !important;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+	color: #b7990d;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+	font-family: "Roboto", sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+	color: #679289;
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    font-weight: 3000;
+    font-size: 30px !important;
+}
+
+#mainNav {
+	background-color: #562c2c;
+}
+
+/********************/
+/****** SLIDER ******/
+/********************/
+
+.carousel-control-next-icon {
+    background-image: none; /* Remove the default background */
+    mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23000000" viewBox="0 0 16 16"><path d="M7.293 1.707a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L12.586 8 7.293 2.707a1 1 0 010-1.414z"/></svg>'); /* Use the next arrow icon */
+    background-color: #071e22; /* Set your custom color here (blue in this case) */
+    width: 30px; /* Adjust size if needed */
+    height: 30px;
+}
+.carousel-control-prev-icon {
+    background-image: none; /* Remove the default background */
+    mask-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23000000" viewBox="0 0 16 16"><path d="M8.707 1.707a1 1 0 010 1.414L3.414 8l5.293 5.293a1 1 0 01-1.414 1.414l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 0z"/></svg>'); /* Use the prev arrow icon */
+    background-color: #071e22; /* Set your custom color here (blue in this case) */
+    width: 30px; /* Adjust size if needed */
+    height: 30px;
+}
+
+/********************/
+/****** TOP 6 ******/
+/********************/
+
+.project-category{
+    font-size: 300px;
+}
